@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LYtqA4qu+dY=",
+  "success": true,
+  "projectFilePath": "/Users/samarthms/Documents/net_fsi/FullStackApp/ServerApp/ServerApp.csproj",
+  "expectedPackageFiles": [
+    "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.aspnetcore.openapi/10.0.1/microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
