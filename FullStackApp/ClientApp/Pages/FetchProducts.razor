@@ -1,4 +1,5 @@
 @page "/fetchproducts"
+@using System.Text.Json
 @inject HttpClient Http
 
 <h3>Product List</h3>
@@ -30,33 +31,23 @@
     {
         try
         {
-            using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(10));
-            var response = await Http.GetAsync("api/products", cts.Token);
-
-            if (!response.IsSuccessStatusCode)
+            var response = await Http.GetAsync("/api/productlist");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            products = JsonSerializer.Deserialize<Product[]>(json, new JsonSerializerOptions
             {
-                errorMessage = $"API returned {(int)response.StatusCode} {response.ReasonPhrase}.";
-                return;
-            }
-
-            products = await response.Content.ReadFromJsonAsync<Product[]>(cancellationToken: cts.Token);
+                PropertyNameCaseInsensitive = true
+            });
 
             if (products is null)
             {
                 errorMessage = "No product data was returned from the API.";
             }
         }
-        catch (TaskCanceledException)
-        {
-            errorMessage = "The request timed out. Please try again later.";
-        }
-        catch (HttpRequestException ex)
-        {
-            errorMessage = $"Failed to fetch products: {ex.Message}";
-        }
         catch (Exception ex)
         {
-            errorMessage = $"An unexpected error occurred: {ex.Message}";
+            Console.WriteLine($"Error: {ex.Message}");
+            errorMessage = $"Error: {ex.Message}";
         }
     }
 

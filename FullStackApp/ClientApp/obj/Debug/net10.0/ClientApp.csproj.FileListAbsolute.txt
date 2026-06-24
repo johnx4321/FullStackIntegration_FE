@@ -207,9 +207,6 @@
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/ClientApp.m197b6dguy.wasm
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/ClientApp.09csnyve5s.pdb
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/dotnet.s2ko3wzehj.js
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/blazor.webassembly.66stpp682q.js.gz
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.mrojqw2yhh.wasm.gz
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/Microsoft.AspNetCore.Components.5yorhp2rya.wasm.gz
@@ -418,9 +415,6 @@
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/ClientApp.m197b6dguy.wasm.gz
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/ClientApp.09csnyve5s.pdb.gz
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/dotnet.s2ko3wzehj.js.gz
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/ClientApp.staticwebassets.runtime.json
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/ClientApp.staticwebassets.endpoints.json
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/ClientApp.dll
@@ -1110,10 +1104,6 @@
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/872eih9nmi-{0}-tjcz0u77k5-tjcz0u77k5.gz
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/bteeq1m9b6-{0}-tptq2av103-tptq2av103.gz
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/hhd0cmukc2-{0}-lfu7j35m59-lfu7j35m59.gz
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/e9r8smi3k0-{0}-m197b6dguy-m197b6dguy.gz
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/o1aobwrapl-{0}-09csnyve5s-09csnyve5s.gz
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/6g59rcugsa-{0}-s2ko3wzehj-s2ko3wzehj.gz
-/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/2h1wcuvvvh-{0}-kfo3hb83m3-kfo3hb83m3.gz
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/staticwebassets.build.json
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/staticwebassets.build.json.cache
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/staticwebassets.development.json
@@ -1124,3 +1114,14 @@
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/refint/ClientApp.dll
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/ClientApp.pdb
 /Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/ref/ClientApp.dll
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/ClientApp.sourcelink.json
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/ClientApp.m7lfbipbgh.wasm
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/ClientApp.x7cu9nrhsh.pdb
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/dotnet.wr6aftuvxa.js
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/ClientApp.m7lfbipbgh.wasm.gz
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/ClientApp.x7cu9nrhsh.pdb.gz
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/bin/Debug/net10.0/wwwroot/_framework/dotnet.wr6aftuvxa.js.gz
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/e9r8smi3k0-{0}-m7lfbipbgh-m7lfbipbgh.gz
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/o1aobwrapl-{0}-x7cu9nrhsh-x7cu9nrhsh.gz
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/6g59rcugsa-{0}-wr6aftuvxa-wr6aftuvxa.gz
+/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/obj/Debug/net10.0/compressed/2h1wcuvvvh-{0}-aqd7xwgedv-aqd7xwgedv.gz

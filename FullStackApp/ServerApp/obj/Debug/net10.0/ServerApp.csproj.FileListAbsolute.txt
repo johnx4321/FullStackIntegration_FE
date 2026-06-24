@@ -31,3 +31,4 @@
 /Users/samarthms/Documents/net_fsi/FullStackApp/ServerApp/obj/Debug/net10.0/ServerApp.pdb
 /Users/samarthms/Documents/net_fsi/FullStackApp/ServerApp/obj/Debug/net10.0/ServerApp.genruntimeconfig.cache
 /Users/samarthms/Documents/net_fsi/FullStackApp/ServerApp/obj/Debug/net10.0/ref/ServerApp.dll
+/Users/samarthms/Documents/net_fsi/FullStackApp/ServerApp/obj/Debug/net10.0/ServerApp.sourcelink.json

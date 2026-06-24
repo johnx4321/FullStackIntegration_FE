@@ -1,20 +1,15 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(policy =>
-    {
-        policy.WithOrigins("http://localhost:5020", "https://localhost:7265")
-              .AllowAnyHeader()
-              .AllowAnyMethod();
-    });
-});
+builder.Services.AddCors();
 
 var app = builder.Build();
 
-app.UseCors();
+app.UseCors(policy =>
+    policy.AllowAnyOrigin()
+          .AllowAnyMethod()
+          .AllowAnyHeader());
 
-app.MapGet("/api/products", () =>
+app.MapGet("/api/productlist", () =>
 {
     return new[]
     {
