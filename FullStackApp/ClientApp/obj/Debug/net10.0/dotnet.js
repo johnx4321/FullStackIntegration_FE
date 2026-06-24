@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "ClientApp",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-ON+tvR1logJoLc8wpJO11/Bcb51MQmtFRbZwZq9Dv0A=",
+    "hash": "sha256-RlHDkRuy23/7TILN30JCHsyObvt/66GWVFqcQWnVfxc=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.cs8mcre4gh.js"
@@ -146,6 +146,11 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "virtualPath": "Microsoft.Extensions.FileSystemGlobbing.wasm",
         "name": "Microsoft.Extensions.FileSystemGlobbing.g3xufhx1sx.wasm",
         "integrity": "sha256-9FlVI/W1fgfL7qCMlPbVuhn2T8pPvMW+ddjTZtajgXo="
+      },
+      {
+        "virtualPath": "Microsoft.Extensions.Http.wasm",
+        "name": "Microsoft.Extensions.Http.bonmm5uuoo.wasm",
+        "integrity": "sha256-pXQ/rJSLlPCwDbhq2eu+SROYh69+g60MQxA6ZZ4Wjug="
       },
       {
         "virtualPath": "Microsoft.Extensions.Logging.wasm",
@@ -1039,15 +1044,15 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "ClientApp.wasm",
-        "name": "ClientApp.m7lfbipbgh.wasm",
-        "integrity": "sha256-3iMSvBL4rrWMRLPRxoXY1sE3jWer9che0SlHThSkrCg="
+        "name": "ClientApp.86alj2gfu1.wasm",
+        "integrity": "sha256-wCGUv6yu4mBjb6pAMcj/gZ5rFQ7puXFpXFsuDdCTxWc="
       }
     ],
     "pdb": [
       {
         "virtualPath": "ClientApp.pdb",
-        "name": "ClientApp.x7cu9nrhsh.pdb",
-        "integrity": "sha256-oxFWhELs/+Xy0dKLXNoko+i/sRvq85eCCHDZv6QTCn4="
+        "name": "ClientApp.o7y7ranczb.pdb",
+        "integrity": "sha256-9HsoBFp/+M0FlNNo1rfhpAedXV2A1mgrEsqKY1Tb+is="
       }
     ],
     "libraryInitializers": [

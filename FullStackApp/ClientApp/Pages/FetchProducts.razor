@@ -1,6 +1,5 @@
 @page "/fetchproducts"
-@using System.Text.Json
-@inject HttpClient Http
+@inject IProductService ProductService
 
 <h3>Product List</h3>
 
@@ -14,7 +13,7 @@
     {
         foreach (var product in products)
         {
-            <li>@product.Name - $@product.Price</li>
+            <li>@product.Name - $@product.Price (@product.Category?.Name)</li>
         }
     }
     else if (string.IsNullOrEmpty(errorMessage))
@@ -23,21 +22,26 @@
     }
 </ul>
 
+<div class="mt-3">
+    <button class="btn btn-outline-primary btn-sm" @onclick="RefreshProducts">Refresh</button>
+</div>
+
 @code {
     private Product[]? products;
     private string? errorMessage;
 
     protected override async Task OnInitializedAsync()
     {
+        await LoadProductsAsync();
+    }
+
+    private async Task LoadProductsAsync(bool forceRefresh = false)
+    {
+        errorMessage = null;
+
         try
         {
-            var response = await Http.GetAsync("/api/productlist");
-            response.EnsureSuccessStatusCode();
-            var json = await response.Content.ReadAsStringAsync();
-            products = JsonSerializer.Deserialize<Product[]>(json, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
+            products = await ProductService.GetProductsAsync(forceRefresh);
 
             if (products is null)
             {
@@ -51,11 +55,8 @@
         }
     }
 
-    public class Product
+    private async Task RefreshProducts()
     {
-        public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public double Price { get; set; }
-        public int Stock { get; set; }
+        await LoadProductsAsync(forceRefresh: true);
     }
 }

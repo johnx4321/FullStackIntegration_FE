@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XUTAyFY0d9g=",
+  "dgSpecHash": "bC+5eo/GUUA=",
   "success": true,
   "projectFilePath": "/Users/samarthms/Documents/net_fsi/FullStackApp/ClientApp/ClientApp.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.extensions.fileproviders.abstractions/10.0.1/microsoft.extensions.fileproviders.abstractions.10.0.1.nupkg.sha512",
     "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.extensions.fileproviders.physical/10.0.1/microsoft.extensions.fileproviders.physical.10.0.1.nupkg.sha512",
     "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.extensions.filesystemglobbing/10.0.1/microsoft.extensions.filesystemglobbing.10.0.1.nupkg.sha512",
+    "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.extensions.http/10.0.1/microsoft.extensions.http.10.0.1.nupkg.sha512",
     "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.extensions.logging/10.0.1/microsoft.extensions.logging.10.0.1.nupkg.sha512",
     "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.extensions.logging.abstractions/10.0.1/microsoft.extensions.logging.abstractions.10.0.1.nupkg.sha512",
     "/var/folders/hk/03z2gxhj7yd46cn_jx_qr3540000gn/T/cursor-sandbox-cache/ab08c57be768e26e7bf772800a30c8c8/nuget/microsoft.extensions.options/10.0.1/microsoft.extensions.options.10.0.1.nupkg.sha512",

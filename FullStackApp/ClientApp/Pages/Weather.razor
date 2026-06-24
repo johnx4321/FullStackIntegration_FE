@@ -7,7 +7,11 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
-@if (forecasts == null)
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p class="text-danger">@errorMessage</p>
+}
+else if (forecasts == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -38,10 +42,18 @@ else
 
 @code {
     private WeatherForecast[]? forecasts;
+    private string? errorMessage;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        try
+        {
+            forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Unable to load weather data: {ex.Message}";
+        }
     }
 
     public class WeatherForecast

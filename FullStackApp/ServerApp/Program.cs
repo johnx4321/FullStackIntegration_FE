@@ -1,6 +1,10 @@
+using Microsoft.Extensions.Caching.Memory;
+using ServerApp.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors();
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
@@ -9,13 +13,13 @@ app.UseCors(policy =>
           .AllowAnyMethod()
           .AllowAnyHeader());
 
-app.MapGet("/api/productlist", () =>
+app.MapGet("/api/productlist", (IMemoryCache cache) =>
 {
-    return new[]
+    return cache.GetOrCreate("productlist", entry =>
     {
-        new { Id = 1, Name = "Laptop", Price = 1200.50, Stock = 25 },
-        new { Id = 2, Name = "Headphones", Price = 50.00, Stock = 100 }
-    };
+        entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(5);
+        return ProductCatalog.Products;
+    });
 });
 
 app.Run();
